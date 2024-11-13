@@ -1,7 +1,11 @@
-﻿@{
+﻿@model ASP_MVC_Basic.Models.Student;
+@{
     ViewData["Title"] = "คะแนนสอบ";
 }
 
 <h1 class="text-center" style="font-weight:bold;">คะแนนสอบ</h1>
 <br />
 
+<p>id : @Model.Student_Id</p>
+<p>name : @Model.Name</p>
+<p>score : @Model.Score</p>
